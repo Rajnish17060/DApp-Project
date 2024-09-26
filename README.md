@@ -1,11 +1,11 @@
-# Value Manager Dapp
+#  Assessment Dapp
 
-This project demonstrates a simple Web3 application with a Solidity smart contract and a React.js frontend. The smart contract allows setting, incrementing, decrementing, and resetting a value.
+This project demonstrates a simple Web3 application with a Solidity smart contract and a React.js frontend. The smart contract has functions like setGreeting, setNumber, getNumber, getGreeting, resetGreting, resetNumber and reverseGreeting.
 
 ## Project Overview
 
 The project consists of:
-- **Solidity Smart Contract**: Solidity smart contract is used for manipulating the stored value. The functions like setvalue, incrementing, decrementing, and reseting the value are defined inside the solidity file.
+- **Solidity Smart Contract**: Solidity smart contract is used for manipulating the stored value. The functions like setGreeting, setNumber, getNumber, getGreeting, resetGreting, resetNumber and reverseGreeting.are defined inside the solidity file.
 - **Next.js Frontend**: Next.js is used for interacting with the smart contract and also the functions that are declared in the file.
 
 ## How to Run
@@ -15,7 +15,7 @@ The project consists of:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/web3-assessment-contract.git
+   git clone https://github.com/Rajnish17060/DApp-Project.git
    cd web3-assessment-contract
    ```
 
