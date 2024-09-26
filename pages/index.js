@@ -93,7 +93,7 @@ const App = () => {
     }
   };
 
-  // Inline styling for background color and centering content
+  
   const containerStyle = {
     backgroundColor: "#748275",
     height: "100vh",
