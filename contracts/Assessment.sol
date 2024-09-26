@@ -47,7 +47,7 @@ contract Assessment {
     uint256 len = str.length;
     
     for (uint256 i = 0; i < len / 2; i++) {
-        bytes1 temp = str[i];  // Use bytes1 instead of byte
+        bytes1 temp = str[i];  
         str[i] = str[len - i - 1];
         str[len - i - 1] = temp;
     }
